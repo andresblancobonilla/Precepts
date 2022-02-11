@@ -23,6 +23,6 @@ func main() {
         server_port := os.Args[1]
 
         // set up web server
-        configure_route()
+        configure_routes()
         http.ListenAndServe(server_port, nil)
 }
