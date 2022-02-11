@@ -22,5 +22,5 @@ func configure_routes() {
 	http.HandleFunc("/", func(http.ResponseWriter, *httpRequest)
 			{
 				println("hi")
-			}
+			})
 }
