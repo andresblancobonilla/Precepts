@@ -12,12 +12,15 @@ import (
 
 func configure_routes() {
         // create a function for  each route: http://localhost:[port]/[routename]
-        routeAHandler := ________________
-        routeBHandler := ________________
-	...
+       // routeAHandler := ________________
+       // routeBHandler := ________________
+	//...
 
 
         // for each route pattern, register the handler
-        http.HandleFunc(______________)
-	http.HandleFunc("/a", func(http.ResponseWriter, *httpRequest)
+        //http.HandleFunc(______________)
+	http.HandleFunc("/", func(http.ResponseWriter, *httpRequest)
+			{
+				println("hi")
+			}
 }
