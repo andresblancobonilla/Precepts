@@ -19,6 +19,5 @@ func configure_routes() {
 
         // for each route pattern, register the handler
         http.HandleFunc(______________)
-        http.HandleFunc(______________)
-
+	http.HandleFunc("/a", func(http.ResponseWriter, *httpRequest)
 }
