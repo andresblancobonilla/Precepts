@@ -23,5 +23,5 @@ func main() {
         server_port := os.Args[1]
 
         // set up web server
-        http.ListenAndServe()
+        http.ListenAndServe(server_port, nil)
 }
